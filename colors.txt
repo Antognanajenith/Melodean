@@ -1,0 +1,15 @@
+pinkish violet = #D535F8;
+bluer = #0072F5;
+
+https://cdn.dribbble.com/users/508588/screenshots/14415902/media/71239fd5123a5ec851de848e10772fa9.jpg?compress=1&resize=768x576&vertical=top
+
+
+berceuse 
+schottische
+melodeon 
+
+
+https://images.unsplash.com/photo-1567928513938-cd0e82a33ca3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387
+
+
+https://github.com/adrianhajdin/ecommerce_sanity_stripe
