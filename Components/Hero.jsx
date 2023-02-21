@@ -4,6 +4,7 @@ import Heropattern from './Heropattern';
 import Vredpattern from './Vredpattern';
 import Productsspec from './Productsspec';
 import Productsdummy from './productsdummy';
+import Footer from './Footer';
 
 const Hero = (allproducts) => {
  
@@ -38,43 +39,23 @@ const Hero = (allproducts) => {
       <div  className="flex items-center h-screen w-full snap-start bg-center"  style={bgblack2Style} ref={uppref}>   
         <Heropattern allproducts={allproducts}/>
         </div>
-      <div  className="flex items-center h-screen w-full snap-start bg-center bg-blacksmoke" ref={botref}>
+      <div  className="flex items-center h-screen w-full snap-start bg-center bg-raisinblack" ref={botref}>
           <Vredpattern/>    
       </div>
-      <div  className="flex items-center h-screen w-full snap-start bg-center bg-blacksmoke" ref={botref}>
+      <div  className="flex items-center h-screen w-full snap-start bg-center bg-purpleblack" ref={botref}>
           <Productsspec allproducts={allproducts}/>  
       </div>
    
       
-      <div  className="flex items-center h-screen w-full snap-start bg-center" style={bgredStyle} ref={botref}>
-        <button onClick={mvtohome}>click to move </button>
-
-        <div className='flex basis-4/6 flex-row justify-start gap-8 md:overflow-hidden md:justify-evenly overflow-x-scroll md:pt-10 pt-20 px-8'>
-            <div className='md:h-[22rem] md:w-60 h-96 w-72 bg-gray-800 drop-shadow-xl backdrop-filter bg-clip-padding border border-gray-100 backdrop-blur-md bg-opacity-20 flex flex-col container shrink-0 items-center'>
-                <div className='basis-2/5  w-36 h-36  p-2 overflow-hidden relative'>
-                    <Image layout='fill' objectFit='cover' className='absolute rounded-full ' src="https://images.unsplash.com/photo-1653463174260-421a58ef7975?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500" alt="" />
-                </div>
-                <div className='basis-2/5  w-full'>asd</div>
-            </div>
-            <div className='md:h-[22rem] md:w-60 h-96 w-72 bg-red-500 flex container shrink-0'>sasasd</div>
-            <div className='md:h-[22rem] md:w-60 h-96 w-72 bg-red-500 flex container shrink-0'>asdasdgfsgsdf</div>
-            <div className='md:h-[22rem] md:w-60 h-96 w-72 bg-red-500 flex container shrink-0'>sasasd</div>
-        </div>
+      <div  className="flex items-center h-screen w-full snap-start bg-center bg-purpheadph bg-cover" ref={botref}>
+        {/* <button onClick={mvtohome}>click to move </button> */}
+sadf
+        
       </div> 
-      <div  className="flex items-center h-screen w-full snap-start bg-center bg-white" ref={botref}>
-      <div className='flex basis-4/6 flex-row justify-start gap-8 md:overflow-hidden md:justify-evenly overflow-x-scroll md:pt-10 pt-20 px-8'>
-            <div className='md:h-[22rem] md:w-60 h-96 w-72 bg-white drop-shadow-xl flex flex-col container items-center'>
-                <div className='basis-2/5  w-36 h-36  p-2 overflow-hidden relative'>
-                    <Image layout='fill' objectFit='cover' className='absolute rounded-full ' src="https://images.unsplash.com/photo-1653463174260-421a58ef7975?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500" alt="" />
-                </div>
-                <div className='basis-2/5  w-full'>
-                
-                  
-                </div>
-            </div>
-           
-        </div>  
+      <div  className="flex items-center h-screen w-full snap-start bg-center flex-col-reverse bg-purpleblack" ref={botref}>
+          <Footer/>
       </div>
+     
     </div>
    
   )

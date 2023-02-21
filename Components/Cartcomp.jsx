@@ -54,18 +54,12 @@ const Cartcomp = () => {
         </div>
         <div className=' flex flex-col basis-2/6 h-full w-auto bg-yellow-600 opacity-80 items-center justify-between'>
             <div className='relative basis-4/5 w-full bg-green-300 '>
-                 <div className='flex flex-col overflow-y-scroll gap-2 h-[30rem] 2xl:h-[48rem] scroll scroll-smooth scrollbar-hide p-2'>
-                    <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'>asdas</div>
-                    <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'>as</div>
+                 <div className='flex flex-col overflow-y-scroll gap-2 h-[28rem] 2xl:h-[48rem] scroll scroll-smooth scrollbar-hide p-2'>
+                    
                     <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'>{show}</div>
                     <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'>totalprice - {totalprice}</div>
                     <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'>totalquantity - {totalquantity}</div>
-                    <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'></div>
-                    <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'></div>
-                    <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'></div>
-                    <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'></div>
-                    <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'></div>
-                    <div className='inline-block shrink-0 bg-red-500 rounded-lg w-full h-28'></div>
+                    
                 </div>   
                   
             </div>

@@ -10,6 +10,11 @@ module.exports = {
     fontFamily:{
       'sans': ['helvetica'],
     },
+    backgroundImage: {
+      'purpsvgist': "url('../public/SVGFolder/blurpur.svg')",
+      '3pgsvg':     "url('../public/SVGFolder/3pb.svg')",
+      'purpheadph': "url('../public/Imagespic/purphead.jpg')",
+    },
 
     extend: {
       colors:{
@@ -26,7 +31,8 @@ module.exports = {
         cultured: "#f8f9fcff",
         raisinblack:"#1f2125ff",
         lightengray: "#d5d4d2ff",
-        eerieblack2: "#1c1d1fff",
+        eerieblack2: "#111216",
+        purpleblack:"#0D0B10",
       },
       dropShadow: {
         '6kl':'inset 0 0 0 200px rgba(255,255,255,0.2)',

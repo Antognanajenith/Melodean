@@ -56,5 +56,34 @@ export default {
         title: 'Imglnk2',
         type: 'url',
       },
+      { 
+        name: 'Imglnk3',
+        title: 'Imglnk3',
+        type: 'url',
+      },
+      { 
+        name: 'Imglnk4',
+        title: 'Imglnk4',
+        type: 'url',
+      },
+      {
+        title: 'Specs',
+        name: 'Specs',
+        type: 'array',
+        of: [{type: 'string'}]
+      },
+      {
+        title: 'Descheading',
+        name: 'Descheading',
+        type: 'array',
+        of: [{type: 'string'}]
+      },
+      {
+        title: 'Descbrief',
+        name: 'Descbrief',
+        type: 'array',
+        of: [{type: 'string'}]
+      },
+     
     ],
   };
